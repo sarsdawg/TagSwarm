@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditTagActivity" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tag_name"
+            android:padding="@dimen/small_padding"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/big_text" />
+
+        <EditText
+            android:id="@+id/eedit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textAutoComplete"
+            android:padding="@dimen/small_padding"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/big_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tag_description"
+            android:padding="@dimen/small_padding"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/big_text" />
+
+        <EditText
+            android:id="@+id/eedit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textAutoComplete"
+            android:padding="@dimen/small_padding"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/big_text" />
+
+        <TextView
+            android:id="@+id/elatitude"
+            android:padding="@dimen/small_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/latitude_empty"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/big_text" />
+
+        <TextView
+            android:id="@+id/elongitude"
+            android:padding="@dimen/small_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/longitude_empty"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/big_text" />
+
+        <TextView
+            android:id="@+id/etime"
+            android:padding="@dimen/small_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/time_empty"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/big_text" />
+
+        <Button
+            android:id="@+id/ebutton_gps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_gps_update"
+            android:textColor="@color/buttonLabel" />
+
+        <ImageView
+            android:id="@+id/eimage_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <Button
+            android:id="@+id/ebutton_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_picture_update"
+            android:textColor="@color/buttonLabel" />
+
+        <Button
+            android:id="@+id/ebutton_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_padding"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_save_update"
+            android:textColor="@color/buttonLabel" />
+
+        <Button
+            android:id="@+id/ebutton_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="@string/button_cancel"
+            android:textColor="@color/buttonLabel" />
+
+    </LinearLayout>
+</ScrollView>
