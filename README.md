@@ -2,7 +2,7 @@
 An Android app to create and store tags with geographic coordinates, pictures, and text data.
 
 
-----------------------------------FILE LOCATIONS---------------------------------------
+## File Locations
 
 
 o The unsigned APK install file is located at tagswarm.apk
@@ -19,7 +19,7 @@ o XML value resources are located at TagSwarm/app/src/main/res/values/
 
 
 
------------------------------------INSTALLATION---------------------------------------
+## Installation
 
 
 1. Load tagswarm.apk on your Android device.
@@ -34,7 +34,7 @@ o XML value resources are located at TagSwarm/app/src/main/res/values/
 5. Enjoy! 
 
 
--------------------------------FURTHER INFORMATION------------------------------------
+## Further Information
 
 
 See Documentation/
