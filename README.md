@@ -7,7 +7,7 @@ An Android app to create and store tags with geographic coordinates, pictures, a
 
 - The unsigned APK install file is located at tagswarm.apk
 
-- Android Studio project folder is at Tagswarm/
+- Skeleton of the Android Studio project folder is at Tagswarm/
 
 - Android XML manifest is located at TagSwarm/app/src/main/AndroidManifest.xml
 
