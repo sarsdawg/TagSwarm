@@ -29,7 +29,15 @@ o XML value resources are located at TagSwarm/app/src/main/res/values/
 3. Click on the APK to begin the install.
 
 4. After the installation completes, go back to Android settings, click on TagSwarm, 
-
    click on permissions, and enable permissions for Location, Phone, and Storage.
 
 5. Enjoy! 
+
+
+-------------------------------FURTHER INFORMATION------------------------------------
+
+
+See Documentation/
+
+This includes an overview of the application, a requirements specification, and a slide
+presentation on the application's design and functionality. 
