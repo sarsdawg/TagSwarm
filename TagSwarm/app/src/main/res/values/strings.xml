@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TagSwarm</string>
+    <string name="hint_name">Tag name...</string>
+    <string name="hint_description">Tag description...</string>
+    <string name="button_save">Save Tag</string>
+    <string name="empty_not_saved">Tag not saved because name is empty.</string>
+    <string name="button_gps">Get GPS Reading</string>
+    <string name="latitude_empty">Latitude:</string>
+    <string name="longitude_empty">Longitude:</string>
+    <string name="time_empty">Time:</string>
+    <string name="phone_id_empty">Phone ID:</string>
+    <string name="button_picture">Take Picture</string>
+    <string name="username">Username...</string>
+    <string name="app_title">TagSwarm</string>
+    <string name="user_prompt">Please enter a user name.</string>
+    <string name="ok">OK</string>
+    <string name="button_return">Return to List</string>
+    <string name="username_empty">Created by: </string>
+    <string name="tag_name">Tag Name: </string>
+    <string name="tag_description">Tag Description: </string>
+    <string name="button_gps_update">Update GPS Reading</string>
+    <string name="button_picture_update">Update Picture</string>
+    <string name="button_save_update">Save Changes</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_edit">Edit Tag</string>
+    <string name="button_delete">Delete Tag</string>
+</resources>
